@@ -1,16 +1,24 @@
 import React from "react";
-import ListaEpisodios from "./components/CarregandoDados";
+import Cadastrar from "./components/Cadastrar";
+import RodaPe from "./components/Footer";
 import { GlobalStyle } from './components/GlobalStyle';
-import Teste from "./components/FundoDeTela";
-import Star from "./components/CarregandoDados";
+import Header from "./components/Header";
+import UpContainer from "./components/HeadUpContainer";
+import InfosClientes from "./components/LowContainer";
+import ContainerMidle from "./components/MidleContainer";
+import Clientes from "./components/NovidadesClientes";
 
 function App() {
   return (
     <div className="App">
-      <div style={{position: "absolute"}}>
-        <Star/>
-      </div>
-      <Teste/>
+      <GlobalStyle/>
+      <Header/>
+      <UpContainer/>
+      <ContainerMidle/>
+      <Clientes/>
+      <InfosClientes/>
+      <Cadastrar/>
+      <RodaPe/>
     </div>
   );
 }
