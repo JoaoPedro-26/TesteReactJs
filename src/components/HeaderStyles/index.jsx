@@ -51,12 +51,20 @@ export const Busca = styled.input`
     height: 40px;
     border-radius: 20px;
     background: #F4F5F5;
-    //background-image: url(${Search});
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 13px;
+    color: #3A3A3A;
+    opacity: 0.7;
+    padding-left: 16px;
+    background: url(${Search}) no-repeat;
+    background-position: 450px;
 `;
 
 export const SearchImage = styled.img`
     width: 24px;
     height: 24px;
+    margin-top: 12px;
 `;
 
 export const Circle = styled.img`

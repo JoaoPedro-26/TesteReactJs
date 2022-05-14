@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import CartLogo from '../../assets/images/MainPropaganda/CartLogo.svg';
 
 export const Title = styled.p`
     font-size: 28px;
@@ -107,6 +108,7 @@ export const Add = styled.button`
     font-size: 14px;
     color: #FFFFFF;
     cursor: pointer;
+    
 `;
 
 export const DivBotonLogo = styled.div`

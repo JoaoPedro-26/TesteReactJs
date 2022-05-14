@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCadastrar, Title, SubTitle, Input, ButtonCadastrar, DivInput } from '../CadastrarStyles';
+import { DivCadastrar, Title, SubTitle, InputUser, InputEmail, ButtonCadastrar, DivInput } from '../CadastrarStyles';
 
 export default function Cadastrar () {
     return(
@@ -7,10 +7,9 @@ export default function Cadastrar () {
             <DivCadastrar>
                 <Title>ASSINE NOSSA NEWSLETTER</Title>
                 <SubTitle>Fique por dentro de todas as novidades, lançamentos e promoções da <a style={{fontWeight: 'bold'}}>Center Medical</a></SubTitle>
-                
                 <DivInput>
-                    <Input placeholder="Digite seu nome"/>
-                    <Input placeholder="Digite seu e-mail"/>
+                    <InputUser placeholder="Digite seu nome"/>
+                    <InputEmail placeholder="Digite seu e-mail"/>
                     <ButtonCadastrar>CADASTRAR</ButtonCadastrar>
                 </DivInput>
             </DivCadastrar>
