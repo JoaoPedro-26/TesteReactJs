@@ -45,7 +45,7 @@ export const RandomText = styled.p`
     width: 360px;
 `;
 
-export const RandomTextTeste = styled.p`
+export const RandomTextSEO = styled.p`
     font-weight: 400;
     font-size: 13px;
     color: #868686;

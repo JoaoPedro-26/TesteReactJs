@@ -24,7 +24,6 @@ export default function UpContainer () {
                     <BotaoImage style={{marginLeft: '1168px'}} src={RightLogo}/>
                 </DivBotao>
                 <HeadImg src={MainAnuncio}/>
-                
             </div>
         
             <HeadDiv>
@@ -91,11 +90,7 @@ export default function UpContainer () {
                     <ImageAparelhoMedico src={Inaladores}/>
                     <TextImages>Inaladores</TextImages>
                 </div>
-
-                
             </ContainerImages>
-
-                
 
             <DivButtonHelp>
                 <ButtonHelp>Posso ajudar ?</ButtonHelp>

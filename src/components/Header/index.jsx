@@ -1,5 +1,5 @@
 import React from 'react';
-import { Logo, Busca, SearchImage, Signature, Cabecalho, Visitant, ArrowImage, CarText, MenuTable, MenuText, TextInfos, FirstDiv, SecondDiv, DivLogos, LogoImages, LogoImageCar, LogoImageUser} from '../HeaderStyles';
+import { Logo, Busca, Signature, Cabecalho, Visitant, ArrowImage, CarText, MenuTable, MenuText, TextInfos, FirstDiv, SecondDiv, DivLogos, LogoImages, LogoImageCar, LogoImageUser} from '../HeaderStyles';
 import Frame from '../../assets/images/HeaderImages/Frame.svg';
 import Menu from '../../assets/images/HeaderImages/Menu.svg';
 import InfosHeader from '../InfosContatHeader';
@@ -21,7 +21,6 @@ export default function Header () {
           <Busca  placeholder="O que você procura?"/>
 
           <DivLogos>
-            
             <LogoImages src={Recharge}/>
             <Signature>Minhas Assinaturas</Signature>
 

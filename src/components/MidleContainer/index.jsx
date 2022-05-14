@@ -57,14 +57,12 @@ export default function ContainerMidle () {
                     <DivInfos>
                         <InfosMarca>Marca do Produto</InfosMarca>
                         <InfosCadeira>Cadeira de Rodas em Aço - Ortopedia Jaguaribe - 100900 - Pneu Maciço</InfosCadeira>
-
                         <div>
-                        <RealPrice>R$ 899,99</RealPrice>
-
-                        <DivPrice>
-                            <DiscountPrice>R$ 558,60</DiscountPrice>
-                            <Percentage>10% 0FF</Percentage>
-                        </DivPrice>
+                            <RealPrice>R$ 899,99</RealPrice>
+                            <DivPrice>
+                                <DiscountPrice>R$ 558,60</DiscountPrice>
+                                <Percentage>10% 0FF</Percentage>
+                            </DivPrice>
                         </div>
                     </DivInfos>
 

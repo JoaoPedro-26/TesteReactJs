@@ -1,5 +1,5 @@
 import React from "react";
-import { ImageInfos, Infos, SaudeText, ContainerUpBackGround, TitleArticle, RandomText, TextClient, ContainerDiv, ContainerInfos, Foto, ContainerUp, RandomTextTeste, ContainerClient, Name, ImageAspas, InfoEmpresa } from '../LowContainerStyles'
+import { ImageInfos, Infos, SaudeText, ContainerUpBackGround, TitleArticle, RandomText, TextClient, ContainerDiv, ContainerInfos, Foto, ContainerUp, RandomTextSEO, ContainerClient, Name, ImageAspas, InfoEmpresa } from '../LowContainerStyles'
 import FirstImage from '../../assets/images/LowImages/FirstImage.svg';
 import SecondImage from '../../assets/images/LowImages/SecondImage.svg';
 import ThirdImage from '../../assets/images/LowImages/ThirdImage.svg';
@@ -80,7 +80,7 @@ export default function InfosClientes () {
 
             <TextClient>Sobre a Center Medical</TextClient>
             <div>
-            <RandomTextTeste>Texto de SEO dolor sit amet, consectetur adipiscing elit. Tellus mauris morbi ac, posuere senectus diam a. Tristique mattis eros, id quisque purus facilisis lectus feugiat. Iaculis est egestas amet, nunc eget. Tristique mattis eros, id quisque purus facilisis lectus feugiat. Iaculis est egestas amet, nunc eget.</RandomTextTeste>
+                <RandomTextSEO>Texto de SEO dolor sit amet, consectetur adipiscing elit. Tellus mauris morbi ac, posuere senectus diam a. Tristique mattis eros, id quisque purus facilisis lectus feugiat. Iaculis est egestas amet, nunc eget. Tristique mattis eros, id quisque purus facilisis lectus feugiat. Iaculis est egestas amet, nunc eget.</RandomTextSEO>
             </div>
         </div>
     )
